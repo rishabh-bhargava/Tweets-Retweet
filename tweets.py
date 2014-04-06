@@ -58,3 +58,5 @@ print "no of distinct tweets- " + str(len(tweetd))
 (pop_tweet, max_count) = get_most_popular_tweet(tweetd)
 print "most popular tweet is \""+ pop_tweet +"\" with " +str(max_count) + " number of appearances" 
 
+#The following line prints out the sorted list of distinct stripped down tweets in descending order
+#print sorted(tweetd, key = tweetd.get, reverse = True)
